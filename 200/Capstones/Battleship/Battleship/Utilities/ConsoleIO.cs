@@ -100,7 +100,7 @@ namespace Battleship.UI.Utilities
 
                 Console.ResetColor();
                 
-                // the grid
+                // each grid row
                 for (int j = 0; j < 10; j++)
                 {
                     int index = (i * 10) + j;
@@ -128,7 +128,6 @@ namespace Battleship.UI.Utilities
                     }
 
                 }
-
                 // go to next row
                 Console.WriteLine();
             }
