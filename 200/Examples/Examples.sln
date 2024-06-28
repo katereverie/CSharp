@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassFields", "ClassFields\ClassFields.csproj", "{BC37588A-470E-46BB-B96A-D82D966BFBFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingMethods", "UsingMethods\UsingMethods.csproj", "{9605E79B-FEE2-4174-AA69-890D19A8E1D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingProperties", "UsingProperties\UsingProperties.csproj", "{7A802A09-4CD1-469C-A8C8-99A0499EBC92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PromptMethods", "PromptMethods\PromptMethods.csproj", "{32EB50E7-F8CE-4B41-98BA-B598F1088ECD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirportLockerRental", "..\..\..\CSharp200\ClassFundamentals\SampleCode\AirportLockerRental\start\AirportLockerRental.csproj", "{2D4C076A-CEF0-4E6F-A3E4-8DF7D35BAC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "..\Exercises\GuessingGame\GuessingGame.csproj", "{2868FCB3-113A-49D7-AF38-CED062029136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC37588A-470E-46BB-B96A-D82D966BFBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC37588A-470E-46BB-B96A-D82D966BFBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC37588A-470E-46BB-B96A-D82D966BFBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC37588A-470E-46BB-B96A-D82D966BFBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9605E79B-FEE2-4174-AA69-890D19A8E1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9605E79B-FEE2-4174-AA69-890D19A8E1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9605E79B-FEE2-4174-AA69-890D19A8E1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9605E79B-FEE2-4174-AA69-890D19A8E1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A802A09-4CD1-469C-A8C8-99A0499EBC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A802A09-4CD1-469C-A8C8-99A0499EBC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A802A09-4CD1-469C-A8C8-99A0499EBC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A802A09-4CD1-469C-A8C8-99A0499EBC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EB50E7-F8CE-4B41-98BA-B598F1088ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EB50E7-F8CE-4B41-98BA-B598F1088ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EB50E7-F8CE-4B41-98BA-B598F1088ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EB50E7-F8CE-4B41-98BA-B598F1088ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4C076A-CEF0-4E6F-A3E4-8DF7D35BAC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4C076A-CEF0-4E6F-A3E4-8DF7D35BAC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4C076A-CEF0-4E6F-A3E4-8DF7D35BAC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4C076A-CEF0-4E6F-A3E4-8DF7D35BAC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2868FCB3-113A-49D7-AF38-CED062029136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2868FCB3-113A-49D7-AF38-CED062029136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2868FCB3-113A-49D7-AF38-CED062029136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2868FCB3-113A-49D7-AF38-CED062029136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {446A5B5D-EB27-4269-B789-856692B61AD2}
+	EndGlobalSection
+EndGlobal

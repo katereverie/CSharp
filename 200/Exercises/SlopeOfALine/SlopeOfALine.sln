@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlopeOfALine", "SlopeOfALine.csproj", "{62DDEF46-B3DB-425A-888B-69C0B093EC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62DDEF46-B3DB-425A-888B-69C0B093EC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DDEF46-B3DB-425A-888B-69C0B093EC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DDEF46-B3DB-425A-888B-69C0B093EC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DDEF46-B3DB-425A-888B-69C0B093EC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {792872D7-8677-4AD2-A51F-2ACD8FE188C8}
+	EndGlobalSection
+EndGlobal
