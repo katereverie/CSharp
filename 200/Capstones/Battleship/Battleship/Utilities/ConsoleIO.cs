@@ -78,62 +78,59 @@ namespace Battleship.UI.Utilities
 
         public static void PrintBoard(char[] board) 
         {
+            // head row
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\n     A B C D E F G H I J");
             Console.ResetColor();
 
-            // outer grid
-            for (int i = 1; i <= 10; i++)
+            // head column
+            for (int i = 0; i < 10; i++)
             {   
                 Console.ForegroundColor = ConsoleColor.Green;
 
                 switch (i)
                 {
-                    case 10:
-                        Console.Write($"  {i} ");
+                    case 9:
+                        Console.Write($"  {i + 1} ");
                         break;
                     default:
-                        Console.Write($"   {i} ");
+                        Console.Write($"   {i + 1} ");
                         break;
                 }
 
                 Console.ResetColor();
-
-                char[] rowToPrint = new char[10];
-                int startIndex = (i - 1) * 10;
-                Array.Copy(board, startIndex, rowToPrint, 0, 10);
                 
-                // inner grid
+                // the grid
                 for (int j = 0; j < 10; j++)
                 {
-                    if (rowToPrint[j] == '\0')
+                    int index = (i * 10) + j;
+
+                    switch (board[index])
                     {
-                        Console.Write("- ");
-                    }
-                    else if (rowToPrint[j] == 'H')
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write($"{rowToPrint[j]} ");
-                        Console.ResetColor();
-                        continue;
-                    }
-                    else if (rowToPrint[j] == 'M') 
-                    {
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.Write($"{rowToPrint[j]} ");
-                        Console.ResetColor();
-                        continue;
-                    }
-                    else if (rowToPrint[j] != 'M' && rowToPrint[j] != 'H')
-                    {
-                        Console.ForegroundColor = ConsoleColor.DarkYellow;
-                        Console.Write($"{rowToPrint[j]} ");
-                        Console.ResetColor();
+                        case '\0':
+                            Console.Write("- ");
+                            break;
+                        case 'H':
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write($"{board[index]} ");
+                            Console.ResetColor();
+                            break;
+                        case 'M':
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.Write($"{board[index]} ");
+                            Console.ResetColor();
+                            break;
+                        case char symbol when symbol != 'H' && symbol != 'M':
+                            Console.ForegroundColor = ConsoleColor.DarkYellow;
+                            Console.Write($"{board[index]} ");
+                            Console.ResetColor();
+                            break;
                     }
 
                 }
 
-                Console.Write("\n");
+                // go to next row
+                Console.WriteLine();
             }
 
             Console.WriteLine();
